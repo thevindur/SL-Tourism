@@ -1,0 +1,82 @@
+.siteFooter{
+background-color:#26272b;
+}
+
+.siteFooter h3{
+    color: white;
+}
+
+.footerCol{
+float: left;
+width: 33.33%;
+}
+
+#footerLinks{
+    padding-left: 10px;
+}
+
+.footerRow:after{
+content: "";
+display: table;
+clear: both;
+    padding-bottom: 10px;
+}
+
+.aboutUs{
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.footerCol p{
+    color: white;
+}
+
+a{
+    color: white;
+    padding-left: 10px;
+}
+
+/* Latter Part of the Footer */
+.userCol1{
+float: left;
+width: 35%;
+}
+
+.userCol2{
+float: left;
+width: 30%;
+}
+
+.userCol3{
+    padding-top: 3px;
+padding-left: 20px;
+float: right;
+width: 35%;
+}
+
+.button {
+  background-image: linear-gradient(to bottom right, green,yellow);
+  border: none;
+  color: darkslategray;
+    font-weight: bolder;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.userData:after{
+content: "";
+display: table;
+clear: both;
+}
+
+.userData p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 10pt;
+}

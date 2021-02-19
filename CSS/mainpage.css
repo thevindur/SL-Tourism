@@ -1,0 +1,45 @@
+body {
+ background-image: url("../Images/Mainbackground.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-color: floralwhite;
+}
+.blog {
+  padding: 10px;
+  background-color: white;
+  opacity: 0.8;  
+  width: 96%;
+  margin-left: 10px;
+
+}
+.blog h2{
+    font-family: "Brush Script MT";
+    color: black;
+    font-size: 40px;
+    margin: auto;
+}
+.blog p{
+    font-size: 30px;
+}
+video{
+    margin-top: 670px;
+    padding-left: 10px;
+    padding-right: 50px;
+    width:100%;
+    height: 60%;
+}
+#align{
+    padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+     display: flex;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

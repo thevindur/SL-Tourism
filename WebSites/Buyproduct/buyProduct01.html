@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!HOT HOT>
+<html>
+<head>
+  <link rel="stylesheet"  href="../../CSS/buyproductHot.css"/> 
+  <link rel="stylesheet" href="../../CSS/header.css"/>
+ <link rel="stylesheet" href="../../CSS/footer.css"/>
+    
+</head>
+<body>
+     <header>
+            <div class="headerImg">
+                <img src="../../Images/logo.jpeg" width="100%">
+            </div>
+            <div class="headerCol">
+               
+                <div class="navigation">
+                    <a href="../Mainpage.html">Home</a>
+                    <a class="active" href="../Buyproduct/buyProduct01.html">BuyProducts</a>
+                    <a href="../Quiz.html">Quiz</a>
+                    <a href="../Gallery.html">Gallery</a>
+                    <a href="../About.html">About</a>
+                    <a href="../SiteMap.html">Sitemap</a>
+                    <a href="../Feedback.html">Feedback</a>
+                    <div class="dropdown">
+                      <button class="dropbtn">Locations</button>
+                      <div class="dropdown-content">
+                        <a href="../Ella.html">Ella</a>
+                        <a href="../Sinharaja.html">Sinharaja Forest</a>
+                        <a href="../Arugambay.html">Arugamvay</a>
+                        <a href="../HortainPlains.html">Hortain Plains</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+<div id="mainContainer">
+    <!-- this is the div tag of the container-->
+    
+    
+    
+    
+    <div id="row">
+        <div id ="sideBar">
+          <!side navvigation bar
+            menue of  buy products>
+            <nav class="gridNav">
+                <a href="buyProduct01.html">Hot Sellings</a>
+                <a href="buyProduct02.html">Wooden Elephants</a>
+                <a href="buyProduct04.html">Sarong</a>
+                <a href="buyProduct03.html">Lovi Sarong</a>
+                <a href="buyProduct05.html">Saree</a>                        
+                <a href="buyProduct06.html">Traditional  Mask</a>
+                
+               <!--FontSize Changer-->
+               <!-- is &nbsp is a non-breaking space used entity in HTML-->
+                <span>10 &nbsp;</span>
+                <span><input type ="range" onmousemove="variationFontSize();" id="fontSizeValue" min="10" max="60" value="16"></span>
+                <span>&nbsp;60</span>
+                <label id ="vms">Font Size:<span id="sizeValue">16</span></label>
+                
+                
+               
+            </nav>
+        </div>
+        <div id="sellingGoods">
+            <!css grid for items on buy product>
+            <div class="gridItems">
+                <img src="../../Images/hot/h1.jpg"/ class="image" alt="your browser doesnt support"/>
+                <p>Rs.10,000</p>
+                <a href="" class="addToCart">Add To Cart</a>
+            </div>
+            <div class="gridItems">
+                <img src="../../Images/hot/h2.jpg"/ class="image2" alt="your browser doesnt support"/>
+                <p>Rs.18,000</p>
+                <a href="" class="addToCart">Add To Cart</a>
+            </div>
+             <div class="gridItems">
+                <img src="../../Images/hot/h3.jpg"/ class="image" alt="your browser doesnt support"/>
+                <p>Rs.12,000</p>
+                <a href="" class="addToCart">Add To Cart</a>
+            </div>
+             <div class="gridItems">
+                <img src="../../Images/hot/h4.jpg"/ class="image2" alt="your browser doesnt support"/>
+                <p>Rs.15,000</p>
+                <a  href="" class="addToCart">Add To Cart</a>
+            </div>
+             <div class="gridItems">
+                <img src="../../Images/hot/h5.jpg"/ class="image" alt="your browser doesnt support"/>
+                <p>Rs.16,000</p>
+                <a href="" class="addToCart">Add To Cart</a>
+            </div>
+             <div class="gridItems">
+                <img src="../../Images/hot/h6.jpg"/ class="image2" alt="your browser doesnt support"/>
+                <p>Rs.14,000</p>
+                <a href="" class="addToCart">Add To Cart</a>
+            </div>
+            <div class="gridItems">
+                <img src="../../Images/hot/h7.jpg"/ class="image" alt="your browser doesnt support"/>
+                <p>Rs.18,000</p>
+                <a  href="" class="addToCart">Add To Cart</a>
+            </div>
+             <div class="gridItems">
+                <img src="../../Images/hot/h8.jpg"/ class="image2" alt="your browser doesnt support"/>
+                 <p>Rs.20,000</p>
+                 <a  href="" class="addToCart">Add To Cart</a>
+            </div>
+            
+            
+        </div>
+       
+        <div id="rightGridOne">
+            <! this section is for cart and form>
+            <div id="cart">
+                <!cart>
+                <a href="" id="cartDisendant">
+                <ion-icon id="ion01"name="cart" ></ion-icon>CART <span>0</span>
+                </a>
+            </div>
+            
+            
+            
+            <div id="form">
+                <!form>
+                <button onclick="customerDetails()">Customer details</button>
+               
+                    
+                <br>
+                <p>Details</p>
+                <br>
+                <label >First name: </label>
+                <label id="f1"></label>
+                <br>
+                <label>Last name: </label>
+                <label id="f2"></label>
+                <br>
+                <label>email:  </label>
+                <label id="f3"></label>
+                <br>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+   
+
+</div>    
+    
+    <!footer>
+   <!footer>
+  <footer class="siteFooter">
+            <div class="footerRow">
+                <div class="footerCol">
+                    <h3>About Us</h3>
+                    <p class="aboutUs">Our vision is to provide our tourists an idea about the country and if they decide to visit Sri Lanka we try to provide them all the information they require to successfully explore the country. We also offer a wide range of products to purchase which are unique to Sri Lanka.</p>
+                </div>
+                <div class="footerCol" id="footerLinks">
+                    <h3>Quick Links</h3>
+                        <a href="../Mainpage.html">Home</a><br>
+                        <a href="buyProduct01.html">Buy Products</a><br>
+                        <a href="../Gallery.html">Gallery</a><br>
+                        <a href="../About.html">About Us</a><br>
+                        <a href="../SiteMap.html">Site Map</a><br>
+                        <a href="../Feedback.html">Feedback</a><br>
+                        <a href="../Quiz.html">Quiz</a><br>  
+                </div>
+                <div class="footerCol">
+                    <h3>Contact Us</h3>
+                    <p>Student 1 : Vihanga Fernando</p>
+                    <p>Student 2 : Shakir Ahamad</p>
+                    <p>Student 3 : Isuranda Dasanayake</p>
+                    <p>Student 4 : Thevindu Rajapakse</p>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="userData">
+                <div class="userCol1">
+                    <p>Created by :  Vihanga Malinda</p>
+                    <p>Last Modified Date : 23.07.2020</p>
+                </div>
+                <div class="userCol2">
+                    <p>IIT ID : 2019495</p>
+                    <p>UOW ID : w1790098</p>
+                </div>
+                <div class="userCol3">
+                    <a href="../Developers/Vihanga.html" class="button">Developer Page</a>
+                </div>
+            </div>
+        
+        </footer>    
+    <!SVG(Script code of) Cart>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="../../JavaScript/buyProduct.js"></script>
+    <script src="../../JavaScript/buyProductForm.js"></script>
+</body>
+</html>

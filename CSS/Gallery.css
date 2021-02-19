@@ -1,0 +1,122 @@
+#accessibility{
+    padding-bottom: 69px;
+}
+.accessBtn{
+    float:left;
+    width:33.25%;
+}
+.ACbutton{
+    width: 100%;
+background-image: linear-gradient(to bottom right, white,grey);
+  border: none;
+  color: darkslategray;
+    font-weight: bolder;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/* Dividing the page into two for the two drop down menus. */
+#row{
+padding: 15px;
+}
+
+#left{
+float: left;
+width: 50%;
+}
+
+#right{
+float: right;
+width: 50%;
+}
+
+#row:after{
+content: "";
+display: table;
+clear: both;
+}
+
+label{
+color: white;
+font-weight: bold;
+}
+
+/* Introduction paragraph of the website. */
+#GalleryDes,#Locations{
+    padding:10px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+/* Gallery of the Website */
+.row1{
+padding: 15px;
+padding-top: 20px;
+}
+
+/* The expanding image container */
+.container {
+position: relative;
+display: none;
+float: left;
+width: 60%;
+}
+
+#description{
+text-align: justify;
+float: right;
+width: 38%;
+}
+
+h2{
+    color: #e8ff75;
+    text-align: center;
+}
+
+.row1:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.column {
+float: left;
+width: 12.5%;
+padding: 5px;
+padding-top: 30px;
+}
+
+/* Style the images inside the grid */
+.column img {
+opacity: 0.8; 
+cursor: pointer; 
+width: 100%;
+height: 200px;
+}
+
+.column img:hover {
+opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+position: absolute;
+top: 10px;
+right: 15px;
+color: white;
+font-size: 35px;
+cursor: pointer;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Vihanga Fernando</title>
+        <style>
+            body {
+              background-image: url('../../Images/BgDeveloper.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+            
+            /* Top Part of the Developer Page. */
+            #Header{
+                padding-bottom: 100px;
+            }
+            #developerName{
+                padding-left: 40px;
+                padding-bottom: 10px;
+                float:left;
+                width:55%;
+                background: rgba(0, 0, 0, 0.5);
+                border-radius: 100px;
+            }
+            #logo{
+                padding-top: 40px;
+                float: right;
+                width: 33%;
+            }
+            #Header:after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            #Name{
+                font-family: "Forte";
+                font-size: 90px;
+                margin: 0;
+                color: #ff860d;
+            }
+            #developer{
+                font-family:"Agency FB";
+                font-size: 50px;
+                margin: 0px;
+                padding-left: 30px;
+                color: antiquewhite;
+            }
+            #logoImg{
+                width:100%;
+            }
+            
+            
+            /* Content of the Developer Page. */
+            #tasks{
+                float:left;
+                width:65%;
+                background: rgba(0, 0, 0, 0.8);
+                padding:30px;
+                border-radius: 30px;
+            }
+            #dp{
+                float:right;
+                width: 28%;
+            }
+            p,th,td{
+                color: aliceblue;
+            }
+            th,td{
+                padding: 15px;
+            }
+            table,th,td{
+                border: 1px solid white;
+            }
+            a{
+                color: aliceblue;
+            }
+            .c1{
+                width: 150px;
+            }
+            .c2{
+                width: 650px;
+                text-align: justify;
+            }
+            .c3{
+                color: greenyellow;
+            }
+            #Thevindu{
+                width:90%;
+                border: 5px solid white;
+            }
+            #Content:after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .button {
+              background-image: linear-gradient(to bottom right, orange,red);
+              border: none;
+              color: darkslategray;
+                font-weight: bolder;
+              padding: 15px 60px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+            #backBtn{
+                float:right;
+                width: 20%;
+                padding-bottom: 30px;
+                padding-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="Header">
+            <div id="developerName">
+                <p id="Name">Vihanga Fernando</p>
+                <p id="developer">Developer 1</p>
+            </div>
+            <div id="logo">
+                <a href="../Mainpage.html"><img src="../../Images/S4_logo.jpg" id="logoImg"></a>
+            </div>
+        </div>
+        <div id="Content">
+            <div id="tasks">
+                <p>Hi! I'm Vihanga Fernando a first year student at Informatics Institute of Technology. I'm a currently studying Software Engineering Degree offered by University of Westminster, UK. This is the website created by me and my teammates for our first year Web Development and Designning coursework. The folllowing table represents the tasks done by me.</p>
+                
+                <table>
+                    <tr>
+                        <th class="c1">Task</th>
+                        <th class="c2">Description</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td class="c1"><a href="../../index.html">Presentation Page</a></td>
+                        <td class="c2">A presentation page with title and the name of everyone in the group. After 4 seconds, a second page will be displayed (Main Web page).</td>
+                        <td class="c3">Completed</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="c1"><a href="../Buyproduct/buyProduct01.html">Font size alter button</a></td>
+                        <td class="c2">Your site should contain Font Size Alter Button created using JavaScript</td>
+                        <td class="c3">Completed</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="c1"><a href="../Buyproduct/buyProduct01.html">Buy Products</a></td>
+                        <td class="c2">Your site should contain a form to allow people to buy products related to the topic of your web site.</td>
+                        <td class="c3">Completed</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="c1"><a href="../HortainPlains.html">Horton Plains(Part B)</a></td>
+                        <td class="c2">For Part B You should create an appropriate page for the subject of your page. You have the ability to use the knowledge gained in the tutorials for the development of this web page</td>
+                        <td class="c3">Completed</td>
+                    </tr>
+                </table>
+            </div>
+            
+            
+            <div id="dp">
+                <img src="../../Images/Developers/Vihanga.jpeg" id="Thevindu">
+            
+            </div>
+        
+        </div>
+        <div id="backBtn"><a href="../SiteMap.html" class="button">Site Map</a></div>
+    </body>
+</html>

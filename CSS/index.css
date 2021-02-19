@@ -1,0 +1,36 @@
+h1{ font-family : "Lucida Console", Monaco, monospace;
+    font-size : 90px ;
+	text-align: center ;
+	color : whitesmoke;
+	background-color:black;
+	padding: 20px;
+	opacity: 0.9;
+	height: 90px;
+	width: 500px;
+	margin-left: auto;
+    margin-right: auto;
+}
+body{
+	background-image: url("../Images/presentation.jpg");
+	
+	
+}
+.teamMates{
+	        text-align:left;
+			background-color:black;
+            border: 10px;
+            border-radius: 10px;
+            font-family:"Impact", Charcoal, sans-serif;
+			font-size : 30px ;
+			width: 60%;
+			padding: 50px;
+			color:antiquewhite;
+			opacity: 0.9;
+			margin-left: auto;
+			margin-right: auto;
+}
+
+.presName{
+    padding-bottom: 25px;
+    padding-top: 25px;
+}

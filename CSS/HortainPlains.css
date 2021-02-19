@@ -1,0 +1,87 @@
+#gridHortain{
+    display: grid;
+    grid-template-columns: 800px 200px;
+    
+}
+#paragragph{
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 15px;
+}
+#historyGrid{
+    
+    display: grid;
+    grid-template-columns: 400px 800px;
+}
+#history02{
+    text-align: left;
+    padding-left: 10px;
+}
+
+#tourist{
+    display: grid;
+    grid-template-columns: 800px 200px;
+}
+#tourist h2{
+    text-decoration: underline;
+}
+#toPara{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.image{
+    max-height: 200px;
+    max-width: 200px;
+}
+#toPara{
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    
+}
+#history02{
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+.imageTo01{
+    height:300px ;
+    width:500px;    
+    border: 2px solid;
+    border-radius:8px; 
+    
+    
+       
+}
+.imageHistory{
+    height: 250px;
+    width: 400px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+#history01{
+     display: grid;
+    grid-template-rows: 300px 300px;
+
+}
+#worldsEnd{
+    height:300px; 
+    width: 500px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+toImage{
+    padding-top: 50px;
+}
+    
+    
+    
+    

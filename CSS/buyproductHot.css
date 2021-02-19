@@ -1,0 +1,145 @@
+/*first grid */
+#mainContainer{
+    display: grid;    
+    grid-template-rows:50px 1000px ;
+}
+/*second grid */
+#row{
+    display: grid;
+    grid-template-columns: 150px 1200px 150px;   
+}
+/*third grid */
+#sellingGoods{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 2px 80px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+
+
+/*SVG*/
+/*SVG*/
+ion-icon{
+    font-size:45px;
+    color: yellow;
+    
+}
+#sellingGoods div{
+    border: 3px solid;
+    border-radius: 8px
+    
+}
+/*fourth grid*/
+.gridNav{
+    display: grid;
+    grid-template-columns: 130px;
+    margin-left: 15px;
+    text-align: left;
+    
+}
+
+.gridNav a{
+    padding: 6px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border: 2px solid;
+    color: yellow;
+    background-color: black;
+    border-radius: 8px;
+}
+
+
+#but02{
+    background-color:yellow;
+    color: black;
+    font-size:45px;
+}
+#but01{
+    background-color:yellow;
+    color: black;
+    font-size:45px;
+}
+
+
+
+
+
+#sideBar{
+    background-color: black;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/* css for images*/
+.image{
+    height:200px;
+    width:200px;
+    
+}
+.image2{
+    height:200px;
+    width:150px;
+   
+}
+
+p{
+   color: white;
+}
+
+#footer{
+    background-color: coral;
+    height:50%;
+}
+#cart{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+}
+#cartDisendant{
+    text-decoration: none;
+    color: yellow;
+}
+#form{
+    background-color: cadetblue;
+}
+#nav{
+    background-color: darkseagreen;
+}
+
+
+
+.gridItems{
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    border: 2px solid;
+}
+
+.gridItems a{
+    font-family:fantasy;
+    text-decoration: none ;
+    background-color: yellow;
+    color: black;
+    
+    
+}
+
+#vms{
+    color: white;
+    
+}
+
+
+.addToCart{
+    color: crimson ;
+    border: 2px solid;
+}
