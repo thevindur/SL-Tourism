@@ -1,0 +1,168 @@
+html{
+	background-image:url("background12.jpg") ;
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+
+
+
+.hod {
+	color:#000000;
+	font-family: Impact, Charcoal, sans-serif;
+	background-color:#AFE335 ;
+	padding:10px;
+	width:150px;
+	border-style:inset;
+	border-width: thick;
+	border-color:#94B676;
+}
+
+.desc{
+	width: 500px;
+	margin: auto;
+	background-color:#AFE335 ;
+	padding:20px;
+	border-style:inset;
+	border-width: thick;
+	border-color:#B3FF00 ;
+}
+
+p{
+	color:#000000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:20px;
+}
+
+.pic1{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  width: 400px;
+  float:left;
+}
+.overlay{
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right:auto;
+  height: 37%;
+  width: 27%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #AFE335 ;
+  border-style:solid;
+  border-color:#0FC714;
+  border-width:10px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #000000;
+  font-size: 30px;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.pic2{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  height:auto;
+  width: 400px;
+  margin:50px;
+  float:right;
+}
+
+.overlay1{
+  position: absolute;
+  top: 2050px;
+  bottom: auto;
+  left: 1050px;
+  right:auto;
+  height: 45%;
+  width: 28%;
+  padding:8px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #AFE335 ;
+  border-style:solid;
+  border-color:#0FC714;
+  border-width:10px;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+
+.pic3{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  width: 400px;
+  margin:50px;
+  float:right;
+}
+
+.overlay2{
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  left: 1050px;
+  right:auto;
+  height: 50%;
+  width: 28%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #AFE335 ;
+  border-style:solid;
+  border-color:#0FC714;
+  border-width:10px;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.pic4{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  width: 300px;
+  height:300px;
+  margin:50px;
+  float:left;
+}
+
+.overlay3{
+  position: absolute;
+  top: 2100px;
+  bottom: auto;
+  left: auto;
+  right:auto;
+  height: 45%;
+  width: 30%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #AFE335 ;
+  border-style:solid;
+  border-color:#0FC714;
+  border-width:10px;
+}
+
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+
+
+
+#about{
+	color:#FFFFFF;
+}

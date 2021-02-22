@@ -1,0 +1,166 @@
+body{
+    background-color:#000000;
+}
+#essContainer{
+    padding-top:120px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 10px;
+}
+
+.label{
+    color:black;
+}
+
+.inlineOne{display:inline-block;margin-left:10px;margin-bottom:10px;}
+.inlineTwo{display:inline-block;margin-left:10px;margin-bottom:10px;}
+#topColourChanger{
+    border-color: #c9d4d8;
+    border-width: 4px;
+    border-style: dotted dashed double solid;
+    padding: 10px;
+    background-color:#C5FF3B;
+    display: inline-block;
+    margin-bottom:20px;
+    margin-left: 250px;
+}
+
+#thumbnailImages{
+    height:150px; 
+}
+
+#container{
+    margin-left:30px;
+}
+
+.formHeadingFormatting{
+    font-family:sans-serif;
+    float:right;
+    margin-left:200px;
+    margin-right:70px;         
+}
+
+#thumbnailImagesSecondSet{
+    height:150px;
+    width:225px;
+}
+
+#descriptionAndImageArea{
+    text-align: center;
+    margin-left: 160px;
+    height: 550px;
+    width:1000px;
+    background:linear-gradient(#62e056, #9198e5);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#enlargePhoto{
+    width:600;
+    height: 365;
+}
+
+.formatSize{
+    height:30px;
+    width:30px;
+}
+
+.text {
+	text-transform: uppercase;
+	background: linear-gradient(to right, rgb(50, 19, 190) 0%, #910485 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#name{
+    text-transform: uppercase;
+    font-family: sans-serif; 
+}
+
+.logo{
+	height:100px;
+    width: 100px;
+    position:;
+    left:20px;
+    top:10px;
+}
+
+.topnav {
+  background-color: #B4EB04;
+  overflow: hidden;
+  width:100%;
+  font-family:Tahoma;
+  overflow:visible;
+  border-style:solid;
+  border-radius: 15px;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.topnav a:hover {
+   background-color: #000000;
+   color: white;
+}
+
+.topnav a.active {
+   background-color: #000000;
+   color: white;
+}
+
+.dropbtn {
+  background-color: #B4EB04;
+  color: #000000;
+  padding: 14px 16px;
+  font-size: 17px;
+  border: none;
+  font-family:Tahoma;
+  font-size: 17px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family:Tahoma;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+
+footer{
+	color:#000000;
+	margin-left: 0px;
+	margin-top:500px;
+	border-style:solid;
+	border-width:5px; 
+	border-radius: 15px;
+	text-align:right;
+    width:98%;
+	font-size:20px;
+	background-color:#B4BCAA;
+	padding:10px;
+}
+
+footer a:hover{
+    color:rgb(26, 150, 92);
+}

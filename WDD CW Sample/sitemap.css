@@ -1,0 +1,88 @@
+body{
+    background-image: url("background11.jpg"); /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+	background-size: cover;
+}
+path{
+    stroke: white;
+    stroke-width: 2;
+}
+ellipse{
+    stroke:#FFFFFF;
+    stroke-width:5;
+    fill:#008DF1 ;
+}
+.title{
+    fill:white;
+    font-family:Georgia, serif;
+    font-size:24;
+}
+.logo{
+    height:150px;
+    width: 150px;
+    position: absolute;
+    left:20px;
+    top:10px;
+}
+
+text{
+    fill:white;
+	
+}
+#first{
+    stroke: #FFFFFF;
+    stroke-width: 5;
+    fill:#cc6699;
+}
+#second{
+    stroke:#FFFFFF;
+    stroke-width: 5;
+    fill:#00cc99;
+}
+#third{
+    stroke: #FFFFFF;
+    stroke-width: 5;
+    fill:#6699ff;
+}
+#fourth{
+    stroke: #FFFFFF;
+    stroke-width: 5;
+    fill:#ff9900;
+}
+
+#fifth{
+    stroke: #FFFFFF ;
+    stroke-width: 5;
+    fill:#cc0000;
+}
+#sixth{
+    stroke:#FFFFFF; 
+    stroke-width: 5;
+    fill:#66ccff;
+}
+#seventh{
+    stroke:#FFFFFF; 
+    stroke-width: 5;
+    fill:#66ffcc;
+}
+.pages{
+    fill:white;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size:22;
+}
+hr{
+    margin-left: 0px;
+    width:30%;
+}
+footer{
+    color: white;
+}
+footer a{
+    font-size: 20;
+    color:#ffffff;
+}
+footer a:hover{
+    color:rgb(26, 150, 92);
+}
+

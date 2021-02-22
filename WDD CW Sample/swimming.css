@@ -1,0 +1,67 @@
+
+
+h1,h3{
+	color:#000000;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color:#AFE335   ;
+	padding:10px;
+	width:150px;
+	border-style:inset;
+	border-width: thick;
+	border-color:#94B676;
+}
+
+p{
+	color:#c9d4d8;
+	font-family: sans-serif,Georgia, Charcoal;
+}
+	
+
+.inlineOne{display:inline-block;margin-left:10px;margin-bottom:10px;}
+
+#thumbnailImages{
+    height:250px;
+	width:420px;
+}
+#container{
+    margin-left:30px;
+}
+.formHeadingFormatting{
+    font-family:sans-serif;
+    margin-left:200px;
+    margin-right:70px;
+	text-align: center;
+	
+}
+#thumbnailImagesSecondSet{
+    height:250px;
+	width:380px;
+}
+#descriptionAndImageArea{
+    text-align: center;
+    margin-left: 160px;
+    height: 550px;
+    width:1000px;
+    background:linear-gradient(#D0D3D4 , #154360 );
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#enlargePhoto{
+    width:600;
+    height: 365;
+}
+.formatSize{
+    height:30px;
+    width:30px;
+}
+.text {
+	text-transform: uppercase;
+	background: linear-gradient(to right, rgb(50, 19, 190) 0%, #910485 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#name{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
+}

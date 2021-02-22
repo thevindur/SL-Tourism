@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback form</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" type="text/css" href="feedback.css">
+</head>
+<body>
+	<a href="Mainpage.html">
+		<img src="Logo.jpg" class="logo"/>
+	</a>
+		<div class="topnav">
+		<a href="Mainpage.html">Home</a>
+		<a  href="BuyProducts.html">BuyProducts</a>
+		<a class="active" href="feedback.html">Feedback</a>
+		<a href="gallery.html">Gallery</a>
+		<a  href="quiz.html">Quiz</a>
+		<a href="about.html">About</a>
+		<a href="sitemap.html">Sitemap</a>
+		<div class="dropdown">
+			<button class="dropbtn">Sports Knowledge</button>
+		<div class="dropdown-content">
+			<a href="Football.html">Football</a>
+			<a href="cricket.html">Cricket</a>
+			<a href="basketball.html">Basketball</a>
+			<a href="swimming.html">Swimming</a>
+		</div>
+		</div>
+	
+	</div>
+	
+	<form>
+		<fieldset id="forms">
+			<legend>Customer Feedback</legend>
+			<div class="box">
+				<label for="fullname">Full name:</label>
+				<input type="text" name="fullname" id="fullname">
+			</div>
+		
+			<div class="box">
+				<textarea id="feedback" name="feedback" rows="5" cols="30" placeholder="Tell us about your experience"></textarea>
+			</div>
+			
+			<div class="box">
+				<p>How would you rate our website:</p>
+				
+				<label for="poor">Poor</label>
+				<input type="radio" id="poor" name="rating" value="Poor">
+				<input type="radio" id="adequate" name="rating" value="Adequate"> 
+				<input type="radio" id="okay" name="rating" value="Okay">				
+				<input type="radio" id="good" name="rating" value="Good">
+				<input type="radio" id="excellent" name="rating" value="Excellent">
+				<label for="excellent">Excellent</label>
+			</div>
+			
+			<div class="box">
+			<button type="reset">Reset</button>
+			<button type="submit" onclick="required()">Submit</button>
+			</div>
+		</fieldset>
+	
+	</form>
+		<footer>
+            <p >created by : <span class="footerName"><a href="Mittu.html"><u>Mishyaau Nawaz</u></a></span> last modified date : 13/2/2020</p>
+        </footer>
+	<script>
+		function required() {
+			var poor = document.getElementById('poor').checked;
+			var adequate = document.getElementById('adequate').checked;
+			var okay = document.getElementById('okay').checked;
+			var good = document.getElementById('good').checked;
+			var excellent = document.getElementById('excellent').checked;
+			if (document.getElementById('fullname').value == "") {
+				alert("Name required");
+				return false;
+			}
+				
+			if ((poor == false) && (adequate == false) && (okay == false) && (good == false) && (excellent == false)) {
+				alert("Please give a rating");
+				return false;
+			}
+			
+			if (true) {
+				var rate = document.getElementsByName('rating');
+				var len = rate.length;
+				for (var i = 0; i < len; i++) {
+					if (rate[i].checked){
+					alert("Dear " + document.getElementById('fullname').value + 
+					", Thank you very much for your feedback. You have rated our site as " + rate[i].value + " and your comment was " 
+					+ document.getElementById('feedback').value + ".");
+					}
+				}
+			}
+		}
+	</script>
+	
+</body>
+</html>

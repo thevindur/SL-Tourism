@@ -1,0 +1,109 @@
+<html lang="en">
+    <head>
+        <title>
+            swimming
+        </title>
+        <link href="swimming.css" rel="stylesheet" type="text/css" >
+		<link rel="stylesheet" href="main.css"><img src="Logo.jpg" class="logo"/>
+    </head>
+	
+    <body>
+	
+    <div class="topnav">
+		<a href="Mainpage.html">Home</a>
+		<a  href="BuyProducts.html">BuyProducts</a>
+		<a href="feedback.html">Feedback</a>
+		<a href="gallery.html">Gallery</a>
+		<a  href="quiz.html">Quiz</a>
+		<a href="about.html">About</a>
+		<a href="sitemap.html">Sitemap</a>
+		<div class="dropdown">
+			<button class="dropbtn">Sports Knowledge</button>
+		<div class="dropdown-content">
+			<a href="Football.html">Football</a>
+			<a href="cricket.html">Cricket</a>
+			<a href="basketball.html">Basketball</a>
+			<a class="active" href="swimming.html">Swimming</a>
+		</div>
+		</div>
+	
+	</div>
+	
+	<h1>Swimming</h1>
+	
+	
+		<p>Swimming, in recreation and sports, the drive of the body through water by joined arm and leg movements and the regular buoyancy of the body. Swimming as an activity is mainstream as an inside and out body engineer and is especially helpful in treatment and as exercise for genuinely disabled people. It is likewise educated for lifesaving purposes.
+		For exercises that include swimming, see additionally plunging, lifesaving, surfing, synchronized swimming,  underwater diving, and water polo.</p>
+			<h3>History</h3>
+				<p>Archeological and other proof demonstrates swimming to have been polished as right on time as 2500 BCE in Egypt and from that point in Assyrian, Greek, and Roman human advancements. In Greece and Rome swimming was a piece of military preparing and was, with the letter set, likewise part of rudimentary training for guys. In the Orient swimming goes back in any event to the first century BCE, there being some proof of swimming races at that point in Japan. By the seventeenth century a majestic decree had made the instructing of swimming mandatory in the schools. Sorted out swimming occasions were held in the nineteenth century before Japan was opened toward the Western world. Among the preliterate oceanic people groups of the Pacific, swimming was clearly learned by kids about the time they strolled, or even previously. Among the old Greeks there is note of periodic races, and a celebrated fighter swam as a component of his preparation. The Romans assembled pools, particular from their showers.
+				In the first century BCE the Roman Gaius Maecenas is said to have fabricated the primary warmed pool.</p>
+			<h3>Swimming in olympic games</h3>
+				<p>Globally, competitive swimming became a force to be reckoned with its consideration in the advanced Olympic Games from their initiation in 1896. Olympic occasions were initially just for men, yet ladies' occasions were included 1912. Before the arrangement of FINA, the Games incorporated some bizarre occasions. In 1900, for example, when the Games' swimming occasions were hung on the Seine River in France, a 200-meter obstruction race included moving over a shaft and a line of pontoons and swimming under them. Such peculiarities vanished after FINA assumed responsibility.
+				Under FINA guidelines, for both Olympic and other world rivalry, race lengths came progressively to be estimated in meters, and in 1969 world records for yard-estimated races were annulled. The sorts of strokes permitted were diminished to free-form (slither), backstroke, breaststroke, and butterfly. Every one of the four strokes were utilized in singular variety races. Numerous countries have at once or another overwhelmed Olympic and world rivalry, including Hungary, Denmark, Australia, Germany, France, Great Britain, Canada, Japan, and the United States.</p>
+				  <form>
+				    <h1 class="formHeadingFormatting"><span class="text">Strokes</span> </h1>
+					<div id="container">
+						<div class="inlineOne">
+							<img src="bst.jpg" id="thumbnailImagesSecondSet" onmouseover="breast()" onmouseout="removeContent()"> 
+						</div>
+
+						<div class="inlineOne">
+							<img src="butterfly.gif" id="thumbnailImages" onmouseover="butterfly()" onmouseout="removeContent()"> 
+						</div>
+						<div class="inlineOne">
+							<img src="back.gif" id="thumbnailImages" onmouseover="backstroke()" onmouseout="removeContent()"> 
+						</div>
+					</div>
+						<div id="descriptionAndImageArea">
+						</div>
+			      </form>
+			 
+	
+	 <footer>
+        <hr>
+        created by : <span class="footerName"><a href="SHN.html"><u>Shenol Silva</u></a></span> last modified date : 8/3/2020
+    </footer>
+		<script>
+			function backstroke(){
+                window.scrollTo(200,850);
+                var backstroke=document.createElement("img");
+                backstroke.id="enlargePhoto";
+                backstroke.src="back.gif";
+                var locationName=document.createElement("div");
+                locationName.id="name";
+                locationName.innerHTML="backstroke";
+                document.getElementById("descriptionAndImageArea").appendChild(locationName);
+                document.getElementById("descriptionAndImageArea").appendChild(backstroke);
+                document.getElementById("descriptionAndImageArea").innerHTML+="<p>The backstroke started to grow right off the bat in the twentieth century. In that stroke, the swimmer's body position is prostrate, the body being held as level and streamlined as would be prudent. The arms reach on the other hand over the head and enter the water straightforwardly in accordance with the shoulders, palm outward with the little finger entering the water first. The arm is pulled back to the thigh. There is a slight body roll. The kick was initially the frog kick, however it along these lines required here and there leg developments as in the slither. The backstroke is an opposition stroke, yet it is likewise utilized in recreational swimming as a rest from different strokes, as often as possible with least arm movement and just enough kick to keep up forward movement.</p>";
+		    }
+            function breast(){
+                window.scrollTo(200,850);
+                var breast=document.createElement("img");
+                breast.id="enlargePhoto";
+                breast.src="bst.jpg";
+                var locationName=document.createElement("div");
+                locationName.id="name";
+                locationName.innerHTML="breaststroke";
+                document.getElementById("descriptionAndImageArea").appendChild(locationName);
+                document.getElementById("descriptionAndImageArea").appendChild(breast);
+                document.getElementById("descriptionAndImageArea").innerHTML+="<p>The  earliest strokes to be utilized were the sidestroke and the breaststroke. The was breaststroke initially utilized with the two arms submerged. That training was changed close to the finish of the nineteenth century by presenting initial one arm over the water, at that point the other, and afterward each in turn.The body remains on its side and the arms push then again. The leg movement utilized in breaststroke is known as the scissors kick, in which the legs open gradually, under leg in reverse, upper leg forward, the two knees somewhat bowed, and toes pointed. The scissoring activity of the legs coming intelligently together in the wake of opening makes the forward drive of the kick.The breaststroke is accepted to be the most seasoned of strokes and is quite utilized in lifesaving and recreational swimming just as in serious swimming. The stroke is particularly viable in rough water.</p>";
+            }
+            function butterfly(){
+                window.scrollTo(200,850);
+                var butterfly=document.createElement("img");
+                butterfly.id="enlargePhoto";
+                butterfly.src="butterfly.gif";
+                var locationName=document.createElement("div");
+                locationName.id="name";
+                locationName.innerHTML="butterflystroke";
+                document.getElementById("descriptionAndImageArea").appendChild(locationName);
+                document.getElementById("descriptionAndImageArea").appendChild(butterfly);
+                document.getElementById("descriptionAndImageArea").innerHTML+="<p>The butterfly stroke, utilized distinctly in rivalry, contrasts from the breaststroke in arm activity. In the butterfly the arms are presented over the water. The stroke was brought to the consideration of U.S. authorities in 1933 during a race including Henry Myers, who utilized the stroke. He demanded that his stroke fit in with the guidelines of breaststroke as at that point characterized. After a time of discussion, the butterfly was perceived as an unmistakable serious stroke in 1953. The frog kick initially utilized was relinquished for a fishtail (dolphin) kick, contingent just upon here and there development of the legs. Later swimmers utilized two dolphin kicks to one arm pull. Breathing is done in dash rivalry by raising the head each second or third stroke. </p>";
+            }
+			function removeContent(){
+                document.getElementById("descriptionAndImageArea").innerHTML="";
+            }
+		</script>
+	</body>
+	
+</html>

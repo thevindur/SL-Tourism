@@ -1,0 +1,61 @@
+/* image border*/
+.frame{
+	border:2px solid #424f1a;
+	height:500px;
+	margin-top:50px;
+	margin-left:100px;
+	margin-right:100px;
+	background-color:#BFF540  ;
+	
+		
+}
+/*Heading*/
+#p {
+    text-align:center;
+	font-size:50px;
+background-color:#D5E1BB ;
+margin-top:0px;
+margin-bottom:0px;
+}
+
+
+/* Parent Container */
+.content_img{
+ position: relative;
+ width: 120px;
+ height: 150px;
+ float: left;
+ border:1px double black;
+ margin-right: 10px;
+ margin-top:100px;
+ margin-left:150px;
+
+		
+ 
+}
+
+/* Child Text Container */
+.content_img div{
+ position: absolute;
+ 
+ background: black;
+ color: white;
+ margin-top:10px;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ 
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+ cursor: pointer;
+}
+
+.content_img:hover div{
+ width: 150px;
+ padding: 5px 5px;
+ visibility: visible;
+ opacity: 0.7; 
+}

@@ -1,0 +1,44 @@
+h1 {
+	text-align:center;
+	-webkit-text-fill-color: #2b2d2f;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #B4FF00;
+	font-size: 80px;
+	padding:100px;
+}
+
+h2 {
+	text-align:center;
+	padding:45px;
+}
+
+.linktext{
+	-webkit-text-fill-color:#2b2d2f;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #B4FF00;
+	text-decoration:none;
+	font-size: 40px;
+}
+
+.slogan{
+	height:300px;
+	width:100%;
+}
+
+.gallery{
+	background-image:url("Sport2.jpg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover ;
+	text-align: center;
+	height:600px;
+	width:100%;
+}
+
+.shop{
+	background-image:url("shop.png");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	height:400px;
+	width:100%;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="description" content="Web Design">
+          <meta name="keywords" content="HTML,XML">
+          <meta name="author" content="ushitha">
+         
+		 <link rel="stylesheet" type="text/css" href="quiz.css"> 
+		 <img src="Logo.jpg" alt="Logo" class="logo"/>
+		  
+          <title>quiz</title>
+	  </head>
+	 
+
+
+	
+	<body>
+	
+	 <div id="body">	 
+    
+	
+
+    <!--Navigation Bar-->
+<div class="topnav">
+		<a href="Mainpage.html">Home</a>
+		<a  href="BuyProducts.html">BuyProducts</a>
+		<a href="feedback.html">Feedback</a>
+		<a href="gallery.html">Gallery</a>
+		<a class="active" href="quiz.html">Quiz</a>
+		<a href="about.html">About</a>
+		<a href="sitemap.html">Sitemap</a>
+		<div class="dropdown">
+			<button class="dropbtn">Sports Knowledge</button>
+		<div class="dropdown-content">
+			<a href="Football.html">Football</a>
+			<a href="cricket.html">Cricket</a>
+			<a href="basketball.html">Basketball</a>
+			<a href="swimming.html">Swimming</a>
+		</div>
+		</div>
+	
+	</div>
+</div>
+	
+	<!--Go to Top Link-->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+	<!--Heading-->
+	<h1>Sports Quiz</h1>
+	
+	<div id="frame001">
+	        <!--Dispaly Time,Question No-->
+            <h3 id="number001">Questions:10</h3>
+            <h2>score:<p id="score001">0</p></h2>
+            <h3 id="time001">Time:60sec </h3>
+			<h3 id="time002">Time Taken:0</h3>
+			<br>
+			<br>
+            
+			
+			<!--Start Button-->
+            <div id="disappear001">
+			
+                <button class="buttons002" onclick="begin001()">Start Quiz</button>
+            </div>
+			
+			
+			<!--Dispaly Question,correct/Incorrect,Answer Options-->
+            <p id="message001"></p>
+            <p id="message002"></p>
+            <p id="message003"></p>
+            <p id="message004"></p>
+			
+			<!--Display performance-->
+			<div id="frame">
+			<p id="message015"></p>
+			<p id="message005"></p>
+			<p id="message006"></p>
+			<p id="message007"></p>
+			<p id="message008"></p>
+			<p id="message009"></p>
+			<p id="message010"></p>
+			<p id="message011"></p>
+			<p id="message012"></p>
+			<p id="message013"></p>
+			<p id="message014"></p>
+			</div>
+			
+			<!--count the correct and wrong answers-->
+			<div id ="display">
+			<p id="count"></p>
+			<p id="count001"></p>
+			<p id="count002"></p>
+			<p id="count003"></p>
+			<p id="count004"></p>
+			<p id="count005"></p>
+			<p id="count006"></p>
+			<p id="count007"></p>
+			<p id="count008"></p>
+			<p id="count009"></p>
+			
+			</div>
+        
+		
+    </div>
+	
+	<!--Page Editor link-->
+	 <footer>
+           
+      <p >Created by : <span class="footer"><a href="PGUI.html"><u>Ushitha Gallage</u></a></span> last modified date : 10/3/2020</p>
+    
+	
+	</footer>
+</body>
+<script src="quiz.js"> </script>
+</html>

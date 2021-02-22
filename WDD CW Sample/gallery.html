@@ -1,0 +1,182 @@
+<html>
+    <head>
+        <title>
+            types of sports
+        </title>
+        <link href="gallery.css" rel="stylesheet" type="text/css" >
+		
+		<img src="Logo.jpg" class="logo"/>
+    </head>
+    <body>
+    
+	
+	 <div class="topnav">
+		<a href="Mainpage.html">Home</a>
+		<a href="BuyProducts.html">BuyProducts</a>
+		<a href="feedback.html">Feedback</a>
+		<a class="active" href="gallery.html">Gallery</a>
+		<a  href="quiz.html">Quiz</a>
+		<a href="about.html">About</a>
+		<a href="sitemap.html">Sitemap</a>
+		<div class="dropdown">
+			<button class="dropbtn">Sports Knowledge</button>
+		<div class="dropdown-content">
+			<a href="Football.html">Football</a>
+			<a href="cricket.html">Cricket</a>
+			<a href="basketball.html">Basketball</a>
+			<a href="swimming.html">Swimming</a>
+		</div>
+		</div>
+	
+	 </div>
+    
+    <div id="essContainer">
+        <form>
+            <div id="topColourChanger">
+            <label class="label">Select the background Colour </label>
+            <select id="backGroundColourOptions" onclick="ChangeBgColour()">
+                <option value="#3d7cb2">Dark Blue</option>
+                <option value="#FF33CC">Light purple</option>
+                <option value="#800000">Dark brown</option>
+                <option value="#009900">Green</option>
+                <option value="#cfe3e5">Light Grey</option>
+            </select>
+            </div>
+
+            <div id="topColourChanger"> 
+            <label class="label">Select the font Colour </label>
+            <select id="fontColourOptions" onclick="ChangeFontColour()">
+                <option value="blue">Dark Blue</option>
+                <option value="green">Green</option>
+                <option value="#660066">Dark purple</option>
+                <option value="#FF0000">Red</option>
+                <option value="purple">Purple</option>
+            </select>
+            </div> 
+        
+            <h1 class="formHeadingFormatting"><span class="text">select any picture and get to know what actually it is...</span> </h1>
+            <div id="container">
+                <div class="inlineTwo">
+                        <img src="basketball1.jpg" id="thumbnailImages" onmouseover="basketball()" onmouseout="removeContent()">
+                </div>
+                <div class="inlineOne">
+                    <img src="football1.jpg" id="thumbnailImages" onmouseover="football()" onmouseout="removeContent()"> 
+                </div>
+
+                <div class="inlineOne">
+                    <img src="cricket.jpg" id="thumbnailImages" onmouseover="cricket()" onmouseout="removeContent()"> 
+                </div>
+                <div class="inlineOne">
+                    <img src="swimming.jpg" id="thumbnailImagesSecondSet" onmouseover="swimming()" onmouseout="removeContent()"> 
+                </div>
+                <div class="inlineTwo">
+                    <img src="golf.jpg" id="thumbnailImagesSecondSet" onmouseover="golf()" onmouseout="removeContent()"> 
+                </div>
+            </div>
+                <div id="descriptionAndImageArea">
+                </div>
+            
+        </form>
+    </div>
+    <footer>
+        <hr>
+        <p>created by : <span class="footerName"><a href="SHN.html"><u>Shenol Silva</u></a></span> last modified date : 8/3/2020</p>
+    </footer>
+        <script>
+            function ChangeBgColour(){
+            var selectedColour=document.getElementById("backGroundColourOptions")[document.getElementById("backGroundColourOptions").selectedIndex].value;
+                if(selectedColour==="#3d7cb2"){
+                    document.body.style.backgroundColor="#3d7cb2";
+                }else if(selectedColour==="#FF33CC"){
+                    document.body.style.backgroundColor="#FF33CC";
+                }else if(selectedColour==="#800000"){
+                    document.body.style.backgroundColor="#800000";
+                }else if(selectedColour==="#009900"){
+                    document.body.style.backgroundColor="#009900";
+                }else if(selectedColour==="#cfe3e5"){
+                    document.body.style.backgroundColor="#cfe3e5";
+                }
+            } 
+
+            function ChangeFontColour(){
+            var selectedColour=document.getElementById("fontColourOptions")[document.getElementById("fontColourOptions").selectedIndex].value;
+                if(selectedColour==="blue"){
+                    document.body.style.color=selectedColour;
+                }else if(selectedColour==="green"){
+                    document.body.style.color=selectedColour;
+                }else if(selectedColour==="#660066"){
+                    document.body.style.color=selectedColour;
+                }else if(selectedColour==="#FF0000"){
+                    document.body.style.color=selectedColour;
+                }else if(selectedColour==="purple"){
+                    document.body.style.color=selectedColour;
+                }
+				
+            } 
+			function basketball(){
+                window.scrollTo(100,540);
+                var basketball=document.createElement("img");
+                basketball.id="enlargePhoto";
+                basketball.src="basketball1.jpg";
+                var locationName=document.createElement("div");
+                locationName.id="name";
+                locationName.innerHTML="basketball";
+                document.getElementById("descriptionAndImageArea").appendChild(locationName);
+                document.getElementById("descriptionAndImageArea").appendChild(basketball);
+                document.getElementById("descriptionAndImageArea").innerHTML+="<p>Basketball, game played between two groups of five players each on a rectangular court, usually indoors. Each group attempts to score by hurling the ball through the rival's objective, a raised flat band and net called a basket.The just significant game carefully of U.S. cause, basketball was created by James Naismith (1861–1939) approximately December 1, 1891, at the International Young Men's Christian Association (YMCA) Training School (presently Springfield College), Springfield, Massachusetts, where Naismith was a teacher in physical instruction.</p>"
+            }
+            function football(){
+                window.scrollTo(100,540);
+                var football=document.createElement("img");
+                football.id="enlargePhoto";
+                football.src="football1.jpg";
+                var locationName=document.createElement("div");
+                locationName.id="name";
+                locationName.innerHTML="football";
+                document.getElementById("descriptionAndImageArea").appendChild(locationName);
+                document.getElementById("descriptionAndImageArea").appendChild(football);
+                document.getElementById("descriptionAndImageArea").innerHTML+="<p>Football, additionally called association football or soccer, game in which two groups of 11 players, utilizing any piece of their bodies with the exception of their hands and arms, attempt to move the ball into the rival group's objective. Just the goalkeeper is allowed to deal with the ball and may do so just inside the punishment zone encompassing the objective. The group that scores more goals wins.</p>";
+            }
+            function cricket(){
+                window.scrollTo(100,540);
+                var cricket=document.createElement("img");
+                cricket.id="enlargePhoto";
+                cricket.src="cricket.jpg";
+                var locationName=document.createElement("div");
+                locationName.id="name";
+                locationName.innerHTML="cricket";
+                document.getElementById("descriptionAndImageArea").appendChild(locationName);
+                document.getElementById("descriptionAndImageArea").appendChild(cricket);
+                document.getElementById("descriptionAndImageArea").innerHTML+="<p>Cricket is a bat and ball game played between two groups, 11 players each, on a field which has a rectangular 22-yard-long contribute the inside. The game is played by 120 million players overall making it the second most well known game on the planet. The motivation behind the game is to score a bigger number of runs than your rival group.A Cricket coordinate is isolated into periods called innings. It is chosen before the game starts, if the two groups will have a couple of innings. During the innings one group bats while different fields. Each of the 11 players on the handling group are on the pitch simultaneously anyway just two batsmen are the field at any one time. Team captains flip a coin to conclude who should bat first.</p>";
+            }
+			function swimming(){
+                window.scrollTo(100,540);
+                var swimming=document.createElement("img");
+                swimming.id="enlargePhoto";
+                swimming.src="swimming.jpg";
+                var locationName=document.createElement("div");
+                locationName.id="name";
+                locationName.innerHTML="swimming";
+                document.getElementById("descriptionAndImageArea").appendChild(locationName);
+                document.getElementById("descriptionAndImageArea").appendChild(swimming);
+                document.getElementById("descriptionAndImageArea").innerHTML+="<p>Swimming, in entertainment and sports, the drive of the body through water by joined arm and leg movements and the normal buoyancy of the body. Swimming as an activity is well known as an inside and out body designer and is especially valuable in treatment and as exercise for genuinely impaired people. It is likewise instructed for lifesaving purposes. For exercises that include swimming, see likewise jumping, lifesaving, surfing, synchronized swimming, submerged plunging, and water polo. The earliest strokes to be used were the sidestroke and the breaststroke. The sidestroke was initially utilized with the two arms submerged. That training was changed around the finish of the nineteenth century by presenting initial one arm over the water, at that point the other, and afterward one by one.</P>"
+            }
+            function golf(){
+                window.scrollTo(100,540);
+                var golf=document.createElement("img");
+                golf.id="enlargePhoto";
+                golf.src="golf.jpg";
+                var locationName=document.createElement("div");
+                locationName.id="name";
+                locationName.innerHTML="golf";
+                document.getElementById("descriptionAndImageArea").appendChild(locationName);
+                document.getElementById("descriptionAndImageArea").appendChild(golf);
+                document.getElementById("descriptionAndImageArea").innerHTML+="<p>The scoring system in golf is not the same as that of most games, where the higher score is the victor. In golf, achievement is dictated by the lower score, or the least number of shots taken on the gap or in the round. Each course has an assigned number, known as standard, that speaks to the score a capable golf player would shoot. Besides, each gap on a course, normally nine holes or 18 holes, has its own standard score. A course's standard score is the entirety of the standard scores for every one of the gaps.</p>";
+            }
+            function removeContent(){
+                document.getElementById("descriptionAndImageArea").innerHTML="";
+            }
+        
+        </script>
+    </body>
+</html>
